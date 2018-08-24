@@ -6,7 +6,7 @@
 //  Copyright © 2018 Facebook. All rights reserved.
 //
 
-#import <Purchases/Purchases.h>
+#import <Purchases_macOS/Purchases_macOS.h>
 
 @interface RCEntitlement (RNPurchases)
 

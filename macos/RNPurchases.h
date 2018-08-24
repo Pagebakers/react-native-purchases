@@ -5,7 +5,7 @@
 #import <React/RCTEventEmitter.h>
 #endif
 
-#import <Purchases/RCPurchases.h>
+#import <Purchases_macOS/Purchases_macOS.h>
 
 @interface RNPurchases : RCTEventEmitter <RCTBridgeModule>
 

@@ -10,7 +10,7 @@
 		3535581A20E1574500DB9004 /* RCEntitlement+RNPurchases.m in Sources */ = {isa = PBXBuildFile; fileRef = 3535581920E1574500DB9004 /* RCEntitlement+RNPurchases.m */; };
 		3535581D20E1586200DB9004 /* SKProduct+RNPurchases.m in Sources */ = {isa = PBXBuildFile; fileRef = 3535581C20E1586200DB9004 /* SKProduct+RNPurchases.m */; };
 		35493AF2202DFD47004DFA39 /* RCPurchaserInfo+RNPurchases.m in Sources */ = {isa = PBXBuildFile; fileRef = 35493AF1202DFD47004DFA39 /* RCPurchaserInfo+RNPurchases.m */; };
-		35D0736B20AD0F740012EB8C /* Purchases.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D0736A20AD0F740012EB8C /* Purchases.framework */; };
+		4952694821300D5000A96720 /* Purchases_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4952694721300D5000A96720 /* Purchases_macOS.framework */; };
 		B3E7B58A1CC2AC0600A0062D /* RNPurchases.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNPurchases.m */; };
 /* End PBXBuildFile section */
 
@@ -34,7 +34,7 @@
 		3535581C20E1586200DB9004 /* SKProduct+RNPurchases.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SKProduct+RNPurchases.m"; sourceTree = "<group>"; };
 		35493AF0202DFD47004DFA39 /* RCPurchaserInfo+RNPurchases.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RCPurchaserInfo+RNPurchases.h"; sourceTree = "<group>"; };
 		35493AF1202DFD47004DFA39 /* RCPurchaserInfo+RNPurchases.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "RCPurchaserInfo+RNPurchases.m"; sourceTree = "<group>"; };
-		35D0736A20AD0F740012EB8C /* Purchases.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Purchases.framework; sourceTree = SOURCE_ROOT; };
+		4952694721300D5000A96720 /* Purchases_macOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Purchases_macOS.framework; sourceTree = "<group>"; };
 		B3E7B5881CC2AC0600A0062D /* RNPurchases.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNPurchases.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNPurchases.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNPurchases.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -44,7 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35D0736B20AD0F740012EB8C /* Purchases.framework in Frameworks */,
+				4952694821300D5000A96720 /* Purchases_macOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,7 +69,7 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-				35D0736A20AD0F740012EB8C /* Purchases.framework */,
+				4952694721300D5000A96720 /* Purchases_macOS.framework */,
 				B3E7B5881CC2AC0600A0062D /* RNPurchases.h */,
 				B3E7B5891CC2AC0600A0062D /* RNPurchases.m */,
 				35493AF0202DFD47004DFA39 /* RCPurchaserInfo+RNPurchases.h */,
@@ -189,7 +189,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = macosx10.13;
 			};
 			name = Debug;
 		};
@@ -225,7 +225,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
+				SDKROOT = macosx10.13;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
